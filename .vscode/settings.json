@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell (venv)": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                ".vscode/activate_venv.ps1"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell (venv)",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+}
